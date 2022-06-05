@@ -11,9 +11,9 @@ li {
 
 .header {
     display: flex;
-    height: 64px;
     justify-content: space-between;
     background: cadetblue;
+    padding: 0 18px;
 }
 
 .header-links {
@@ -29,8 +29,15 @@ li {
 .hero-content {
     display: flex;
     background: rgba(95, 158, 160, 0.767);
-    align-items: center;
+    padding: 32px 32px;
+    align-content: center;
     justify-content: center;
+}
+
+.hero-modal {
+    padding: 32px;
+    margin-left: 20px;
+    gap: 8px;
 }
 
 .hero-title {
@@ -46,6 +53,8 @@ li {
 .hero-image {
     width: 500px;
     height: 250px;
+    padding: 10px 10px;
+    margin-right: 22px;
 }
 
 button {
