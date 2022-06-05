@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    background: cadetblue;
+}
+
+.header-links {
+    display: flex;
+    font-size: 18px;
+}
+
+.logo-test {
+    width: 50px;
+    height: 50px;
+}
+
+.hero-content {
+    display: flex;
+    background: rgba(95, 158, 160, 0.767);
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title {
+    color: aliceblue;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-text {
+    font-size: 18px;
+}
+
+.hero-image {
+    width: 500px;
+    height: 250px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sub-content {
+    background-color: beige;
+    text-align: center;
+}
+
+.sc-header {
+    color: black;
+    font-weight: bolder;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 21px;
+}
+
+.sc-container {
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sc-content {
+    max-width: 200px;
+}
+
+.quote {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.quote p {
+    font-size: 36px;
+}
+
+.cta {
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+}
+
+.cta-container {
+    background-color: cadetblue;
+    margin: 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
